@@ -1,0 +1,1178 @@
+=> [32m#<ArticlesController:0x00007f91f048b140[0m
+ @_action_has_layout[32m=[0m[1;36mtrue[0m,
+ @_action_name[32m=[0m[31m[1;31m"[0m[31mindex[1;31m"[0m[31m[0m,
+ @_config[32m=[0m{},
+ @_lookup_context[32m=[0m
+  [32m#<ActionView::LookupContext:0x00007f91f046a6c0[0m
+   @cache[32m=[0m[1;36mtrue[0m,
+   @details[32m=[0m
+    {[33m:locale[0m=>[[33m:ja[0m], [33m:formats[0m=>[[33m:html[0m], [33m:variants[0m=>[], [33m:handlers[0m=>[[33m:raw[0m, [33m:erb[0m, [33m:html[0m, [33m:builder[0m, [33m:ruby[0m, [33m:jbuilder[0m]},
+   @details_key[32m=[0m[1;36mnil[0m,
+   @digest_cache[32m=[0m[1;36mnil[0m,
+   @prefixes[32m=[0m[[31m[1;31m"[0m[31marticles[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m],
+   @view_paths[32m=[0m
+    [32m#<ActionView::PathSet:0x00007f91f04480c0[0m
+     @paths[32m=[0m
+      [[32m#<ActionView::OptimizedFileSystemResolver:0x0000563e24e7fe88[0m
+        @cache[32m=[0m[32m#<ActionView::Resolver::Cache:0x9ad8 keys=1 queries=0>[0m,
+        @path[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/views[1;31m"[0m[31m[0m,
+        @pattern[32m=[0m[31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m,
+        @unbound_templates[32m=[0m[32m#<Concurrent::Map:0x0000563e24e7fe38 entries=4 default_proc=nil>[0m[32m>[0m,
+       [32m#<ActionView::OptimizedFileSystemResolver:0x0000563e24e94338[0m
+        @cache[32m=[0m[32m#<ActionView::Resolver::Cache:0x9b00 keys=1 queries=0>[0m,
+        @path[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actiontext-6.0.6.1/app/views[1;31m"[0m[31m[0m,
+        @pattern[32m=[0m[31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m,
+        @unbound_templates[32m=[0m[32m#<Concurrent::Map:0x0000563e24e94310 entries=0 default_proc=nil>[0m[32m>[0m,
+       [32m#<ActionView::OptimizedFileSystemResolver:0x0000563e24e94770[0m
+        @cache[32m=[0m[32m#<ActionView::Resolver::Cache:0x9b28 keys=1 queries=0>[0m,
+        @path[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.6.1/app/views[1;31m"[0m[31m[0m,
+        @pattern[32m=[0m[31m[1;31m"[0m[31m:prefix/:action{.:locale,}{.:formats,}{+:variants,}{.:handlers,}[1;31m"[0m[31m[0m,
+        @unbound_templates[32m=[0m[32m#<Concurrent::Map:0x0000563e24e94748 entries=0 default_proc=nil>[0m[32m>[0m][32m>[0m[32m>[0m,
+ @_request[32m=[0m
+  [32m#<ActionDispatch::Request:0x0000563e25772ba8[0m
+   @env[32m=[0m
+    {[31m[1;31m"[0m[31mrack.version[1;31m"[0m[31m[0m=>[[1;34m1[0m, [1;34m3[0m],
+     [31m[1;31m"[0m[31mrack.errors[1;31m"[0m[31m[0m=>[32m#<IO:<STDERR>>[0m,
+     [31m[1;31m"[0m[31mrack.multithread[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.multiprocess[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mrack.run_once[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+     [31m[1;31m"[0m[31mSCRIPT_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mQUERY_STRING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_PROTOCOL[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mHTTP/1.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_SOFTWARE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpuma 4.3.12 Mysterious Traveller[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mGATEWAY_INTERFACE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mCGI/1.2[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREQUEST_METHOD[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mGET[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREQUEST_PATH[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREQUEST_URI[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_VERSION[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mHTTP/1.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_HOST[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost:3000[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_CONNECTION[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mkeep-alive[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_UPGRADE_INSECURE_REQUESTS[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_USER_AGENT[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mMozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_ACCEPT[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_SEC_FETCH_SITE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnone[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_SEC_FETCH_MODE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mnavigate[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_SEC_FETCH_USER[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m?1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_SEC_FETCH_DEST[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mdocument[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_ACCEPT_ENCODING[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mgzip, deflate, br, zstd[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_ACCEPT_LANGUAGE[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mja,en-US;q=0.9,en;q=0.8[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mHTTP_COOKIE[1;31m"[0m[31m[0m=>
+      [31m[1;31m"[0m[31m_practicenew_blogapp_session=1R9LO8cJ2E3pX%2BNiCrqzd9SF42PperW5ZH89WsimZXhWg77pDq3Yn6NhAyt1xveb1oixlAjiuQagxMuMDBBkgoCthtfbOxG86Tb2%2Blpi5x36NVlgmYIigVCVJ%2FojB6kb3NBH8pafnf3j%2BLM8%2B0sHO%2B%2BJLz65wk8PO6Ez9Q6C2z5pPF6c11Jbz%2FvsT4cWYE0gzO08758z6XIkob%2Fw%2B9pOcbZRAsRNGYCB3K7IDBBe0E7XEfNTHTNqOWPtLClkkSkpteIP5cX0RdQ%2FWoQzvGiN1ZVZ0Yn8YXTMCp%2BL8CtvMkTDcKoI--s87WLpEEADwWPYX0--WnG834hLja4Xc97AHzkjHA%3D%3D[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpuma.request_body_wait[1;31m"[0m[31m[0m=>[1;34m0[0m,
+     [31m[1;31m"[0m[31mSERVER_NAME[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mSERVER_PORT[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m3000[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mPATH_INFO[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mREMOTE_ADDR[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m::1[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mpuma.socket[1;31m"[0m[31m[0m=>[32m#<TCPSocket:fd 32, AF_INET6, ::1, 3000>[0m,
+     [31m[1;31m"[0m[31mrack.hijack?[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+     [31m[1;31m"[0m[31mrack.hijack[1;31m"[0m[31m[0m=>[32m#<Puma::Client:0x4c04 @ready=true>[0m,
+     [31m[1;31m"[0m[31mrack.input[1;31m"[0m[31m[0m=>[32m#<Puma::NullIO:0x0000563e2542d100[0m[32m>[0m,
+     [31m[1;31m"[0m[31mrack.url_scheme[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp[1;31m"[0m[31m[0m,
+     [31m[1;31m"[0m[31mrack.after_reply[1;31m"[0m[31m[0m=>[],
+     [31m[1;31m"[0m[31mpuma.config[1;31m"[0m[31m[0m=>
+      [32m#<Puma::Configuration:0x0000563e253bb208[0m
+       @default_dsl[32m=[0m
+        [32m#<Puma::DSL:0x0000563e253bae98[0m
+         @config[32m=[0m[32m#<Puma::Configuration:0x0000563e253bb208[0m ...[32m>[0m,
+         @options[32m=[0m
+          {[33m:min_threads[0m=>[1;34m0[0m,
+           [33m:max_threads[0m=>[1;34m16[0m,
+           [33m:log_requests[0m=>[1;36mfalse[0m,
+           [33m:debug[0m=>[1;36mfalse[0m,
+           [33m:binds[0m=>[[31m[1;31m"[0m[31mtcp://localhost:3000[1;31m"[0m[31m[0m],
+           [33m:workers[0m=>[1;34m0[0m,
+           [33m:daemon[0m=>[1;36mfalse[0m,
+           [33m:mode[0m=>[33m:http[0m,
+           [33m:worker_timeout[0m=>[1;34m60[0m,
+           [33m:worker_boot_timeout[0m=>[1;34m60[0m,
+           [33m:worker_shutdown_timeout[0m=>[1;34m30[0m,
+           [33m:remote_address[0m=>[33m:socket[0m,
+           [33m:tag[0m=>[31m[1;31m"[0m[31mpracticenew-blogapp[1;31m"[0m[31m[0m,
+           [33m:environment[0m=>[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+           [33m:rackup[0m=>[31m[1;31m"[0m[31mconfig.ru[1;31m"[0m[31m[0m,
+           [33m:logger[0m=>[32m#<IO:<STDOUT>>[0m,
+           [33m:persistent_timeout[0m=>[1;34m20[0m,
+           [33m:first_data_timeout[0m=>[1;34m30[0m,
+           [33m:raise_exception_on_sigterm[0m=>[1;36mtrue[0m,
+           [33m:Verbose[0m=>[1;36mfalse[0m,
+           [33m:Silent[0m=>[1;36mfalse[0m,
+           [33m:server[0m=>[1;36mnil[0m,
+           [33m:log_stdout[0m=>[1;36mtrue[0m,
+           [33m:Port[0m=>[1;34m3000[0m,
+           [33m:Host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+           [33m:DoNotReverseLookup[0m=>[1;36mtrue[0m,
+           [33m:config[0m=>[31m[1;31m"[0m[31mconfig.ru[1;31m"[0m[31m[0m,
+           [33m:daemonize[0m=>[1;36mfalse[0m,
+           [33m:pid[0m=>[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/tmp/pids/server.pid[1;31m"[0m[31m[0m,
+           [33m:caching[0m=>[1;36mnil[0m,
+           [33m:restart_cmd[0m=>[31m[1;31m"[0m[31mbin/rails server  --restart[1;31m"[0m[31m[0m,
+           [33m:early_hints[0m=>[1;36mnil[0m},
+         @plugins[32m=[0m[][32m>[0m,
+       @file_dsl[32m=[0m
+        [32m#<Puma::DSL:0x0000563e253baf10[0m
+         @config[32m=[0m[32m#<Puma::Configuration:0x0000563e253bb208[0m ...[32m>[0m,
+         @options[32m=[0m
+          {[33m:default_host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+           [33m:min_threads[0m=>[1;34m5[0m,
+           [33m:max_threads[0m=>[1;34m5[0m,
+           [33m:binds[0m=>[[31m[1;31m"[0m[31mtcp://localhost:3000[1;31m"[0m[31m[0m],
+           [33m:environment[0m=>[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+           [33m:pidfile[0m=>[31m[1;31m"[0m[31mtmp/pids/server.pid[1;31m"[0m[31m[0m},
+         @path[32m=[0m[31m[1;31m"[0m[31mconfig/puma.rb[1;31m"[0m[31m[0m,
+         @plugins[32m=[0m[][32m>[0m,
+       @options[32m=[0m
+        [32m#<Puma::UserFileDefaultOptions:0x0000563e253bb028[0m
+         @default_options[32m=[0m
+          {[33m:min_threads[0m=>[1;34m0[0m,
+           [33m:max_threads[0m=>[1;34m16[0m,
+           [33m:log_requests[0m=>[1;36mfalse[0m,
+           [33m:debug[0m=>[1;36mfalse[0m,
+           [33m:binds[0m=>[[31m[1;31m"[0m[31mtcp://localhost:3000[1;31m"[0m[31m[0m],
+           [33m:workers[0m=>[1;34m0[0m,
+           [33m:daemon[0m=>[1;36mfalse[0m,
+           [33m:mode[0m=>[33m:http[0m,
+           [33m:worker_timeout[0m=>[1;34m60[0m,
+           [33m:worker_boot_timeout[0m=>[1;34m60[0m,
+           [33m:worker_shutdown_timeout[0m=>[1;34m30[0m,
+           [33m:remote_address[0m=>[33m:socket[0m,
+           [33m:tag[0m=>[31m[1;31m"[0m[31mpracticenew-blogapp[1;31m"[0m[31m[0m,
+           [33m:environment[0m=>[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+           [33m:rackup[0m=>[31m[1;31m"[0m[31mconfig.ru[1;31m"[0m[31m[0m,
+           [33m:logger[0m=>[32m#<IO:<STDOUT>>[0m,
+           [33m:persistent_timeout[0m=>[1;34m20[0m,
+           [33m:first_data_timeout[0m=>[1;34m30[0m,
+           [33m:raise_exception_on_sigterm[0m=>[1;36mtrue[0m,
+           [33m:Verbose[0m=>[1;36mfalse[0m,
+           [33m:Silent[0m=>[1;36mfalse[0m,
+           [33m:server[0m=>[1;36mnil[0m,
+           [33m:log_stdout[0m=>[1;36mtrue[0m,
+           [33m:Port[0m=>[1;34m3000[0m,
+           [33m:Host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+           [33m:DoNotReverseLookup[0m=>[1;36mtrue[0m,
+           [33m:config[0m=>[31m[1;31m"[0m[31mconfig.ru[1;31m"[0m[31m[0m,
+           [33m:daemonize[0m=>[1;36mfalse[0m,
+           [33m:pid[0m=>[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/tmp/pids/server.pid[1;31m"[0m[31m[0m,
+           [33m:caching[0m=>[1;36mnil[0m,
+           [33m:restart_cmd[0m=>[31m[1;31m"[0m[31mbin/rails server  --restart[1;31m"[0m[31m[0m,
+           [33m:early_hints[0m=>[1;36mnil[0m},
+         @file_options[32m=[0m
+          {[33m:default_host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+           [33m:min_threads[0m=>[1;34m5[0m,
+           [33m:max_threads[0m=>[1;34m5[0m,
+           [33m:binds[0m=>[[31m[1;31m"[0m[31mtcp://localhost:3000[1;31m"[0m[31m[0m],
+           [33m:environment[0m=>[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+           [33m:pidfile[0m=>[31m[1;31m"[0m[31mtmp/pids/server.pid[1;31m"[0m[31m[0m},
+         @user_options[32m=[0m
+          {[33m:log_requests[0m=>[1;36mfalse[0m,
+           [33m:app[0m=>
+            [32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m
+             @_all_autoload_paths[32m=[0m
+              [[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/channels[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers/concerns[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/helpers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/jobs[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/mailers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models/concerns[1;31m"[0m[31m[0m],
+             @_all_load_paths[32m=[0m
+              [[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/lib[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/vendor[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/channels[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers/concerns[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/helpers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/jobs[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/mailers[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models/concerns[1;31m"[0m[31m[0m],
+             @app[32m=[0m
+              [32m#<Webpacker::DevServerProxy:0x0000563e23ce7338[0m
+               @app[32m=[0m
+                [32m#<ActionDispatch::HostAuthorization:0x0000563e23cdc230[0m
+                 @app[32m=[0m
+                  [32m#<Rack::Sendfile:0x0000563e23cdde50[0m
+                   @app[32m=[0m
+                    [32m#<ActionDispatch::Static:0x0000563e23b275c0[0m
+                     @app[32m=[0m
+                      [32m#<ActionDispatch::Executor:0x0000563e23b27728[0m
+                       @app[32m=[0m
+                        [32m#<ActiveSupport::Cache::Strategy::LocalCache::Middleware:0x0000563e2554f2b8[0m
+                         @app[32m=[0m
+                          [32m#<Rack::Runtime:0x0000563e23b27d18[0m
+                           @app[32m=[0m
+                            [32m#<Rack::MethodOverride:0x0000563e23b10208[0m
+                             @app[32m=[0m
+                              [32m#<ActionDispatch::RequestId:0x0000563e23b10398[0m
+                               @app[32m=[0m
+                                [32m#<ActionDispatch::RemoteIp:0x0000563e23b105c8[0m
+                                 @app[32m=[0m
+                                  [32m#<Sprockets::Rails::QuietAssets:0x0000563e23b117c0[0m
+                                   @app[32m=[0m
+                                    [32m#<Rails::Rack::Logger:0x0000563e23b11b58[0m
+                                     @app[32m=[0m
+                                      [32m#<ActionDispatch::ShowExceptions:0x0000563e23b120a8[0m
+                                       @app[32m=[0m
+                                        [32m#<WebConsole::Middleware:0x0000563e23b12288[0m
+                                         @app[32m=[0m
+                                          [32m#<ActionDispatch::DebugExceptions:0x0000563e23b123f0[0m
+                                           @app[32m=[0m
+                                            [32m#<ActionDispatch::ActionableExceptions:0x0000563e23b12b98[0m
+                                             @app[32m=[0m
+                                              [32m#<ActionDispatch::Reloader:0x0000563e23b13750[0m
+                                               @app[32m=[0m
+                                                [32m#<ActionDispatch::Callbacks:0x0000563e23b13c28[0m
+                                                 @app[32m=[0m
+                                                  [32m#<ActiveRecord::Migration::CheckPending:0x0000563e23b13e08[0m
+                                                   @app[32m=[0m
+                                                    [32m#<ActionDispatch::Cookies:0x0000563e23b13f20[0m
+                                                     @app[32m=[0m
+                                                      [32m#<ActionDispatch::Session::CookieStore:0x0000563e23afc1b8[0m
+                                                       @app[32m=[0m
+                                                        [32m#<ActionDispatch::ContentSecurityPolicy::Middleware:0x0000563e23afc4b0[0m
+                                                         @app[32m=[0m
+                                                          [32m#<Rack::Head:0x0000563e23afc578[0m
+                                                           @app[32m=[0m
+                                                            [32m#<Rack::ConditionalGet:0x0000563e23afc640[0m
+                                                             @app[32m=[0m
+                                                              [32m#<Rack::ETag:0x0000563e23afc708[0m
+                                                               @app[32m=[0m
+                                                                [32m#<Rack::TempfileReaper:0x0000563e23afc7f8[0m
+                                                                 @app[32m=[0m
+                                                                  [32m#<ActionDispatch::Routing::RouteSet:0x0000563e256d5df8>[0m[32m>[0m,
+                                                               @cache_control[32m=[0m[31m[1;31m"[0m[31mmax-age=0, private, must-revalidate[1;31m"[0m[31m[0m,
+                                                               @no_cache_control[32m=[0m[31m[1;31m"[0m[31mno-cache[1;31m"[0m[31m[0m[32m>[0m[32m>[0m[32m>[0m[32m>[0m,
+                                                       @cookie_only[32m=[0m[1;36mtrue[0m,
+                                                       @default_options[32m=[0m
+                                                        {[33m:path[0m=>[31m[1;31m"[0m[31m/[1;31m"[0m[31m[0m,
+                                                         [33m:domain[0m=>[1;36mnil[0m,
+                                                         [33m:expire_after[0m=>[1;36mnil[0m,
+                                                         [33m:secure[0m=>[1;36mfalse[0m,
+                                                         [33m:httponly[0m=>[1;36mtrue[0m,
+                                                         [33m:defer[0m=>[1;36mfalse[0m,
+                                                         [33m:renew[0m=>[1;36mfalse[0m},
+                                                       @key[32m=[0m[31m[1;31m"[0m[31m_practicenew_blogapp_session[1;31m"[0m[31m[0m,
+                                                       @same_site[32m=[0m[1;36mnil[0m[32m>[0m[32m>[0m,
+                                                   @last_check[32m=[0m[1;34m1724135698[0m[32m>[0m[32m>[0m,
+                                               @executor[32m=[0m[32m#<Class:0x0000563e258fe378>[0m[32m>[0m[32m>[0m,
+                                           @interceptors[32m=[0m[[1;34;4mWebConsole[0m::[1;34;4mInterceptor[0m],
+                                           @response_format[32m=[0m[33m:default[0m,
+                                           @routes_app[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m[32m>[0m[32m>[0m,
+                                       @exceptions_app[32m=[0m
+                                        [32m#<ActionDispatch::PublicExceptions:0x0000563e233f5400[0m
+                                         @public_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp/public>[0m[32m>[0m[32m>[0m,
+                                     @taggers[32m=[0m[][32m>[0m,
+                                   @assets_regex[32m=[0m[35m[1;35m/[0m[35m[1;35m\A[0m[35m[1;35m\/[0m[35m{0,2}[1;35m\/[0m[35massets[1;35m/[0m[35m[0m[32m>[0m,
+                                 @check_ip[32m=[0m[1;36mtrue[0m,
+                                 @proxies[32m=[0m
+                                  [[32m#<IPAddr: IPv4:127.0.0.1/255.255.255.255>[0m,
+                                   [32m#<IPAddr: IPv6:0000:0000:0000:0000:0000:0000:0000:0001/ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff>[0m,
+                                   [32m#<IPAddr: IPv6:fc00:0000:0000:0000:0000:0000:0000:0000/fe00:0000:0000:0000:0000:0000:0000:0000>[0m,
+                                   [32m#<IPAddr: IPv4:10.0.0.0/255.0.0.0>[0m,
+                                   [32m#<IPAddr: IPv4:172.16.0.0/255.240.0.0>[0m,
+                                   [32m#<IPAddr: IPv4:192.168.0.0/255.255.0.0>[0m][32m>[0m[32m>[0m[32m>[0m,
+                           @header_name[32m=[0m[31m[1;31m"[0m[31mX-Runtime[1;31m"[0m[31m[0m[32m>[0m,
+                         @local_cache_key[32m=[0m[33m:active_support_cache_null_store_local_cache_8840[0m,
+                         @name[32m=[0m[31m[1;31m"[0m[31mActiveSupport::Cache::Strategy::LocalCache[1;31m"[0m[31m[0m[32m>[0m,
+                       @executor[32m=[0m[32m#<Class:0x0000563e259170d0>[0m[32m>[0m,
+                     @file_handler[32m=[0m
+                      [32m#<ActionDispatch::FileHandler:0x0000563e23b27200[0m
+                       @file_server[32m=[0m
+                        [32m#<Rack::Files:0x0000563e23ccf828[0m
+                         @default_mime[32m=[0m[31m[1;31m"[0m[31mtext/plain[1;31m"[0m[31m[0m,
+                         @head[32m=[0m
+                          [32m#<Rack::Head:0x0000563e23cded50[0m
+                           @app[32m=[0m
+                            [32m#<Proc:0x0000563e23cdee90 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/rack-2.2.9/lib/rack/files.rb:33 (lambda)>[0m[32m>[0m,
+                         @headers[32m=[0m{},
+                         @root[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/public[1;31m"[0m[31m[0m[32m>[0m,
+                       @index[32m=[0m[31m[1;31m"[0m[31mindex[1;31m"[0m[31m[0m,
+                       @root[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/public[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+                   @mappings[32m=[0m[],
+                   @variation[32m=[0m[1;36mnil[0m[32m>[0m,
+                 @permissions[32m=[0m
+                  [32m#<ActionDispatch::HostAuthorization::Permissions:0x0000563e23ce7928[0m
+                   @hosts[32m=[0m
+                    [[35m[1;35m/[0m[35m[1;35m\A[0m[35m([a-z0-9-]+[1;35m\.[0m[35m)?localhost(?-mix::[1;35m\d[0m[35m+)?[1;35m\z[0m[35m[1;35m/[0m[35m[35mi[0m[35m[0m,
+                     [32m#<IPAddr: IPv4:0.0.0.0/0.0.0.0>[0m,
+                     [32m#<IPAddr: IPv6:0000:0000:0000:0000:0000:0000:0000:0000/0000:0000:0000:0000:0000:0000:0000:0000>[0m][32m>[0m,
+                 @response_app[32m=[0m
+                  [32m#<Proc:0x0000563e258e9c70 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actionpack-6.0.6.1/lib/action_dispatch/middleware/host_authorization.rb:77 (lambda)>[0m[32m>[0m,
+               @backend[32m=[0m[1;36mnil[0m,
+               @cert[32m=[0m[1;36mnil[0m,
+               @key[32m=[0m[1;36mnil[0m,
+               @opts[32m=[0m{[33m:ssl_verify_none[0m=>[1;36mtrue[0m},
+               @password[32m=[0m[1;36mnil[0m,
+               @read_timeout[32m=[0m[1;34m60[0m,
+               @ssl_verify_none[32m=[0m[1;36mtrue[0m,
+               @ssl_version[32m=[0m[1;36mnil[0m,
+               @streaming[32m=[0m[1;36mtrue[0m,
+               @username[32m=[0m[1;36mnil[0m,
+               @verify_mode[32m=[0m[1;36mnil[0m,
+               @webpacker[32m=[0m
+                [32m#<Webpacker::Instance:0x0000563e24e94608[0m
+                 @commands[32m=[0m
+                  [32m#<Webpacker::Commands:0x0000563e24e00408[0m @webpacker[32m=[0m[32m#<Webpacker::Instance:0x0000563e24e94608[0m ...[32m>[0m[32m>[0m,
+                 @compiler[32m=[0m
+                  [32m#<Webpacker::Compiler:0x00007f91f03d5890[0m @webpacker[32m=[0m[32m#<Webpacker::Instance:0x0000563e24e94608[0m ...[32m>[0m[32m>[0m,
+                 @config[32m=[0m
+                  [32m#<Webpacker::Configuration:0x0000563e24e61208[0m
+                   @config_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp/config/webpacker.yml>[0m,
+                   @data[32m=[0m
+                    {[33m:source_path[0m=>[31m[1;31m"[0m[31mapp/javascript[1;31m"[0m[31m[0m,
+                     [33m:source_entry_path[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                     [33m:public_root_path[0m=>[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m,
+                     [33m:public_output_path[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                     [33m:cache_path[0m=>[31m[1;31m"[0m[31mtmp/cache/webpacker[1;31m"[0m[31m[0m,
+                     [33m:check_yarn_integrity[0m=>[1;36mtrue[0m,
+                     [33m:webpack_compile_output[0m=>[1;36mtrue[0m,
+                     [33m:resolved_paths[0m=>[],
+                     [33m:cache_manifest[0m=>[1;36mfalse[0m,
+                     [33m:extract_css[0m=>[1;36mfalse[0m,
+                     [33m:static_assets_extensions[0m=>
+                      [[31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.tiff[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.ico[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.eot[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.otf[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.ttf[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.woff[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.woff2[1;31m"[0m[31m[0m],
+                     [33m:extensions[0m=>
+                      [[31m[1;31m"[0m[31m.mjs[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.js[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.sass[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.scss[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.css[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.sass[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.scss[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.css[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m],
+                     [33m:compile[0m=>[1;36mtrue[0m,
+                     [33m:dev_server[0m=>
+                      {[33m:https[0m=>[1;36mfalse[0m,
+                       [33m:host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+                       [33m:port[0m=>[1;34m3035[0m,
+                       [33m:public[0m=>[31m[1;31m"[0m[31mlocalhost:3035[1;31m"[0m[31m[0m,
+                       [33m:hmr[0m=>[1;36mfalse[0m,
+                       [33m:inline[0m=>[1;36mtrue[0m,
+                       [33m:overlay[0m=>[1;36mtrue[0m,
+                       [33m:compress[0m=>[1;36mtrue[0m,
+                       [33m:disable_host_check[0m=>[1;36mtrue[0m,
+                       [33m:use_local_ip[0m=>[1;36mfalse[0m,
+                       [33m:quiet[0m=>[1;36mfalse[0m,
+                       [33m:pretty[0m=>[1;36mfalse[0m,
+                       [33m:headers[0m=>{[33m:[1;33m"[0m[33mAccess-Control-Allow-Origin[1;33m"[0m[33m[0m=>[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m},
+                       [33m:watch_options[0m=>{[33m:ignored[0m=>[31m[1;31m"[0m[31m**/node_modules/**[1;31m"[0m[31m[0m}}},
+                   @defaults[32m=[0m
+                    {[31m[1;31m"[0m[31msource_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapp/javascript[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31msource_entry_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mpublic_root_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mpublic_output_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mcache_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtmp/cache/webpacker[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mcheck_yarn_integrity[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                     [31m[1;31m"[0m[31mwebpack_compile_output[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                     [31m[1;31m"[0m[31mresolved_paths[1;31m"[0m[31m[0m=>[],
+                     [31m[1;31m"[0m[31mcache_manifest[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                     [31m[1;31m"[0m[31mextract_css[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                     [31m[1;31m"[0m[31mstatic_assets_extensions[1;31m"[0m[31m[0m=>
+                      [[31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.tiff[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.ico[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.eot[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.otf[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.ttf[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.woff[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.woff2[1;31m"[0m[31m[0m],
+                     [31m[1;31m"[0m[31mextensions[1;31m"[0m[31m[0m=>
+                      [[31m[1;31m"[0m[31m.mjs[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.js[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.sass[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.scss[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.css[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.sass[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.scss[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.module.css[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m],
+                     [31m[1;31m"[0m[31mcompile[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                     [31m[1;31m"[0m[31mdev_server[1;31m"[0m[31m[0m=>
+                      {[31m[1;31m"[0m[31mhttps[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mhost[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mport[1;31m"[0m[31m[0m=>[1;34m3035[0m,
+                       [31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost:3035[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mhmr[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31minline[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31moverlay[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31mcompress[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31mdisable_host_check[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31muse_local_ip[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mquiet[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mheaders[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mAccess-Control-Allow-Origin[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m},
+                       [31m[1;31m"[0m[31mwatch_options[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mignored[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m**/node_modules/**[1;31m"[0m[31m[0m}}},
+                   @env[32m=[0m[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+                   @root_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp>[0m[32m>[0m,
+                 @config_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp/config/webpacker.yml>[0m,
+                 @dev_server[32m=[0m
+                  [32m#<Webpacker::DevServer:0x00007f91f0464c20[0m
+                   @config[32m=[0m
+                    [32m#<Webpacker::Configuration:0x0000563e24e61208[0m
+                     @config_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp/config/webpacker.yml>[0m,
+                     @data[32m=[0m
+                      {[33m:source_path[0m=>[31m[1;31m"[0m[31mapp/javascript[1;31m"[0m[31m[0m,
+                       [33m:source_entry_path[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                       [33m:public_root_path[0m=>[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m,
+                       [33m:public_output_path[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                       [33m:cache_path[0m=>[31m[1;31m"[0m[31mtmp/cache/webpacker[1;31m"[0m[31m[0m,
+                       [33m:check_yarn_integrity[0m=>[1;36mtrue[0m,
+                       [33m:webpack_compile_output[0m=>[1;36mtrue[0m,
+                       [33m:resolved_paths[0m=>[],
+                       [33m:cache_manifest[0m=>[1;36mfalse[0m,
+                       [33m:extract_css[0m=>[1;36mfalse[0m,
+                       [33m:static_assets_extensions[0m=>
+                        [[31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.tiff[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.ico[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.eot[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.otf[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.ttf[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.woff[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.woff2[1;31m"[0m[31m[0m],
+                       [33m:extensions[0m=>
+                        [[31m[1;31m"[0m[31m.mjs[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.js[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.sass[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.scss[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.css[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.sass[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.scss[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.css[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m],
+                       [33m:compile[0m=>[1;36mtrue[0m,
+                       [33m:dev_server[0m=>
+                        {[33m:https[0m=>[1;36mfalse[0m,
+                         [33m:host[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+                         [33m:port[0m=>[1;34m3035[0m,
+                         [33m:public[0m=>[31m[1;31m"[0m[31mlocalhost:3035[1;31m"[0m[31m[0m,
+                         [33m:hmr[0m=>[1;36mfalse[0m,
+                         [33m:inline[0m=>[1;36mtrue[0m,
+                         [33m:overlay[0m=>[1;36mtrue[0m,
+                         [33m:compress[0m=>[1;36mtrue[0m,
+                         [33m:disable_host_check[0m=>[1;36mtrue[0m,
+                         [33m:use_local_ip[0m=>[1;36mfalse[0m,
+                         [33m:quiet[0m=>[1;36mfalse[0m,
+                         [33m:pretty[0m=>[1;36mfalse[0m,
+                         [33m:headers[0m=>{[33m:[1;33m"[0m[33mAccess-Control-Allow-Origin[1;33m"[0m[33m[0m=>[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m},
+                         [33m:watch_options[0m=>{[33m:ignored[0m=>[31m[1;31m"[0m[31m**/node_modules/**[1;31m"[0m[31m[0m}}},
+                     @defaults[32m=[0m
+                      {[31m[1;31m"[0m[31msource_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mapp/javascript[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31msource_entry_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mpublic_root_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mpublic_output_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mpacks[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mcache_path[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mtmp/cache/webpacker[1;31m"[0m[31m[0m,
+                       [31m[1;31m"[0m[31mcheck_yarn_integrity[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31mwebpack_compile_output[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31mresolved_paths[1;31m"[0m[31m[0m=>[],
+                       [31m[1;31m"[0m[31mcache_manifest[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mextract_css[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                       [31m[1;31m"[0m[31mstatic_assets_extensions[1;31m"[0m[31m[0m=>
+                        [[31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.tiff[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.ico[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.eot[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.otf[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.ttf[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.woff[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.woff2[1;31m"[0m[31m[0m],
+                       [31m[1;31m"[0m[31mextensions[1;31m"[0m[31m[0m=>
+                        [[31m[1;31m"[0m[31m.mjs[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.js[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.sass[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.scss[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.css[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.sass[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.scss[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.module.css[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.png[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.svg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.gif[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpeg[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31m.jpg[1;31m"[0m[31m[0m],
+                       [31m[1;31m"[0m[31mcompile[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                       [31m[1;31m"[0m[31mdev_server[1;31m"[0m[31m[0m=>
+                        {[31m[1;31m"[0m[31mhttps[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                         [31m[1;31m"[0m[31mhost[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31mport[1;31m"[0m[31m[0m=>[1;34m3035[0m,
+                         [31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mlocalhost:3035[1;31m"[0m[31m[0m,
+                         [31m[1;31m"[0m[31mhmr[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                         [31m[1;31m"[0m[31minline[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                         [31m[1;31m"[0m[31moverlay[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                         [31m[1;31m"[0m[31mcompress[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                         [31m[1;31m"[0m[31mdisable_host_check[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+                         [31m[1;31m"[0m[31muse_local_ip[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                         [31m[1;31m"[0m[31mquiet[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                         [31m[1;31m"[0m[31mpretty[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+                         [31m[1;31m"[0m[31mheaders[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mAccess-Control-Allow-Origin[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m},
+                         [31m[1;31m"[0m[31mwatch_options[1;31m"[0m[31m[0m=>{[31m[1;31m"[0m[31mignored[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m**/node_modules/**[1;31m"[0m[31m[0m}}},
+                     @env[32m=[0m[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+                     @root_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp>[0m[32m>[0m[32m>[0m,
+                 @env[32m=[0m[31m[1;31m"[0m[31mdevelopment[1;31m"[0m[31m[0m,
+                 @manifest[32m=[0m
+                  [32m#<Webpacker::Manifest:0x0000563e24e003b8[0m
+                   @data[32m=[0m
+                    {[31m[1;31m"[0m[31mapplication.js[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/packs/js/application-82550c4e3b8b39cde23f.js[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mapplication.js.map[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31m/packs/js/application-82550c4e3b8b39cde23f.js.map[1;31m"[0m[31m[0m,
+                     [31m[1;31m"[0m[31mentrypoints[1;31m"[0m[31m[0m=>
+                      {[31m[1;31m"[0m[31mapplication[1;31m"[0m[31m[0m=>
+                        {[31m[1;31m"[0m[31mjs[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m/packs/js/application-82550c4e3b8b39cde23f.js[1;31m"[0m[31m[0m],
+                         [31m[1;31m"[0m[31mjs.map[1;31m"[0m[31m[0m=>[[31m[1;31m"[0m[31m/packs/js/application-82550c4e3b8b39cde23f.js.map[1;31m"[0m[31m[0m]}}},
+                   @webpacker[32m=[0m[32m#<Webpacker::Instance:0x0000563e24e94608[0m ...[32m>[0m[32m>[0m,
+                 @root_path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp>[0m[32m>[0m[32m>[0m,
+             @app_build_lock[32m=[0m[32m#<Thread::Mutex:0x0000563e2593d050[0m[32m>[0m,
+             @app_env_config[32m=[0m
+              {[31m[1;31m"[0m[31maction_dispatch.parameter_filter[1;31m"[0m[31m[0m=>[[33m:password[0m],
+               [31m[1;31m"[0m[31maction_dispatch.redirect_filter[1;31m"[0m[31m[0m=>[],
+               [31m[1;31m"[0m[31maction_dispatch.secret_key_base[1;31m"[0m[31m[0m=>
+                [31m[1;31m"[0m[31mc865bec424dedad4c07dfcc6d0cf40925eba376a1c55b9f9274de3ed4c43eaeaeacef4026a7186ef11bf0b3deebbfe32534f3407466ca03a9a877ce2771387ac[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.show_exceptions[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+               [31m[1;31m"[0m[31maction_dispatch.show_detailed_exceptions[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+               [31m[1;31m"[0m[31maction_dispatch.logger[1;31m"[0m[31m[0m=>
+                [32m#<ActiveSupport::Logger:0x0000563e255843a0[0m
+                 @default_formatter[32m=[0m[32m#<Logger::Formatter:0x0000563e255845d0[0m @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+                 @formatter[32m=[0m
+                  [32m#<ActiveSupport::Logger::SimpleFormatter:0x0000563e25584300[0m
+                   @datetime_format[32m=[0m[1;36mnil[0m,
+                   @thread_key[32m=[0m[31m[1;31m"[0m[31mactivesupport_tagged_logging_tags:12860[1;31m"[0m[31m[0m[32m>[0m,
+                 @level[32m=[0m[1;34m0[0m,
+                 @logdev[32m=[0m
+                  [32m#<Logger::LogDevice:0x0000563e25584558[0m
+                   @binmode[32m=[0m[1;36mfalse[0m,
+                   @dev[32m=[0m[32m#<File:/home/tommysky/practicenew-blogapp/log/development.log>[0m,
+                   @filename[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/log/development.log[1;31m"[0m[31m[0m,
+                   @mon_data[32m=[0m[32m#<Monitor:0x0000563e25584508[0m[32m>[0m,
+                   @mon_data_owner_object_id[32m=[0m[1;34m8800[0m,
+                   @shift_age[32m=[0m[1;34m0[0m,
+                   @shift_period_suffix[32m=[0m[31m[1;31m"[0m[31m%Y%m%d[1;31m"[0m[31m[0m,
+                   @shift_size[32m=[0m[1;34m1048576[0m[32m>[0m,
+                 @progname[32m=[0m[1;36mnil[0m[32m>[0m,
+               [31m[1;31m"[0m[31maction_dispatch.backtrace_cleaner[1;31m"[0m[31m[0m=>
+                [32m#<Rails::BacktraceCleaner:0x0000563e2531c1d0[0m
+                 @filters[32m=[0m
+                  [[32m#<Proc:0x0000563e25313c88 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/activesupport-6.0.6.1/lib/active_support/backtrace_cleaner.rb:96>[0m,
+                   [32m#<Proc:0x0000563e25313b20 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/backtrace_cleaner.rb:16>[0m,
+                   [32m#<Proc:0x0000563e25313ad0 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/backtrace_cleaner.rb:17>[0m,
+                   [32m#<Proc:0x0000563e25313a80 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/backtrace_cleaner.rb:18>[0m],
+                 @root[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/[1;31m"[0m[31m[0m,
+                 @silencers[32m=[0m
+                  [[32m#<Proc:0x0000563e25313c38 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/activesupport-6.0.6.1/lib/active_support/backtrace_cleaner.rb:100>[0m,
+                   [32m#<Proc:0x0000563e25313be8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/activesupport-6.0.6.1/lib/active_support/backtrace_cleaner.rb:104>[0m,
+                   [32m#<Proc:0x0000563e25313a30 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/backtrace_cleaner.rb:19>[0m][32m>[0m,
+               [31m[1;31m"[0m[31maction_dispatch.key_generator[1;31m"[0m[31m[0m=>
+                [32m#<ActiveSupport::CachingKeyGenerator:0x0000563e24af9700[0m
+                 @cache_keys[32m=[0m[32m#<Concurrent::Map:0x0000563e24af96d8 entries=5 default_proc=nil>[0m,
+                 @key_generator[32m=[0m
+                  [32m#<ActiveSupport::KeyGenerator:0x0000563e24af9728[0m
+                   @iterations[32m=[0m[1;34m1000[0m,
+                   @secret[32m=[0m
+                    [31m[1;31m"[0m[31mc865bec424dedad4c07dfcc6d0cf40925eba376a1c55b9f9274de3ed4c43eaeaeacef4026a7186ef11bf0b3deebbfe32534f3407466ca03a9a877ce2771387ac[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+               [31m[1;31m"[0m[31maction_dispatch.http_auth_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mhttp authentication[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned cookie[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.encrypted_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mencrypted cookie[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.encrypted_signed_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31msigned encrypted cookie[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.authenticated_encrypted_cookie_salt[1;31m"[0m[31m[0m=>[31m[1;31m"[0m[31mauthenticated encrypted cookie[1;31m"[0m[31m[0m,
+               [31m[1;31m"[0m[31maction_dispatch.use_authenticated_cookie_encryption[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+               [31m[1;31m"[0m[31maction_dispatch.encrypted_cookie_cipher[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+               [31m[1;31m"[0m[31maction_dispatch.signed_cookie_digest[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+               [31m[1;31m"[0m[31maction_dispatch.cookies_serializer[1;31m"[0m[31m[0m=>[33m:json[0m,
+               [31m[1;31m"[0m[31maction_dispatch.cookies_digest[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+               [31m[1;31m"[0m[31maction_dispatch.cookies_rotations[1;31m"[0m[31m[0m=>
+                [32m#<ActiveSupport::Messages::RotationConfiguration:0x0000563e229f3f10[0m @encrypted[32m=[0m[], @signed[32m=[0m[][32m>[0m,
+               [31m[1;31m"[0m[31maction_dispatch.use_cookies_with_metadata[1;31m"[0m[31m[0m=>[1;36mtrue[0m,
+               [31m[1;31m"[0m[31maction_dispatch.content_security_policy[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+               [31m[1;31m"[0m[31maction_dispatch.content_security_policy_report_only[1;31m"[0m[31m[0m=>[1;36mfalse[0m,
+               [31m[1;31m"[0m[31maction_dispatch.content_security_policy_nonce_generator[1;31m"[0m[31m[0m=>[1;36mnil[0m,
+               [31m[1;31m"[0m[31maction_dispatch.content_security_policy_nonce_directives[1;31m"[0m[31m[0m=>[1;36mnil[0m},
+             @assets[32m=[0m
+              [32m#<Sprockets::Environment:0x2fe4 root="/home/tommysky/practicenew-blogapp", paths=["/home/tommysky/practicenew-blogapp/app/assets/config", "/home/tommysky/practicenew-blogapp/app/assets/images", "/home/tommysky/practicenew-blogapp/app/assets/stylesheets", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actioncable-6.0.6.1/app/assets/javascripts", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/activestorage-6.0.6.1/app/assets/javascripts", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actionview-6.0.6.1/lib/assets/compiled", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts", "/home/tommysky/practicenew-blogapp/node_modules"]>[0m,
+             @assets_manifest[32m=[0m
+              [32m#<Sprockets::Manifest:0x0000563e24ad2948[0m
+               @data[32m=[0m{},
+               @directory[32m=[0m[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/public/assets[1;31m"[0m[31m[0m,
+               @environment[32m=[0m
+                [32m#<Sprockets::Environment:0x2fe4 root="/home/tommysky/practicenew-blogapp", paths=["/home/tommysky/practicenew-blogapp/app/assets/config", "/home/tommysky/practicenew-blogapp/app/assets/images", "/home/tommysky/practicenew-blogapp/app/assets/stylesheets", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actioncable-6.0.6.1/app/assets/javascripts", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/activestorage-6.0.6.1/app/assets/javascripts", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/actionview-6.0.6.1/lib/assets/compiled", "/home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts", "/home/tommysky/practicenew-blogapp/node_modules"]>[0m,
+               @executor[32m=[0m[33m:fast[0m,
+               @filename[32m=[0m
+                [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/public/assets/.sprockets-manifest-8ce746e7ddf88b60751daee28bd8286c.json[1;31m"[0m[31m[0m,
+               @legacy_manifest[32m=[0m[1;36mfalse[0m[32m>[0m,
+             @block[32m=[0m[1;36mnil[0m,
+             @caching_key_generator[32m=[0m
+              [32m#<ActiveSupport::CachingKeyGenerator:0x0000563e24af9700[0m
+               @cache_keys[32m=[0m[32m#<Concurrent::Map:0x0000563e24af96d8 entries=5 default_proc=nil>[0m,
+               @key_generator[32m=[0m
+                [32m#<ActiveSupport::KeyGenerator:0x0000563e24af9728[0m
+                 @iterations[32m=[0m[1;34m1000[0m,
+                 @secret[32m=[0m
+                  [31m[1;31m"[0m[31mc865bec424dedad4c07dfcc6d0cf40925eba376a1c55b9f9274de3ed4c43eaeaeacef4026a7186ef11bf0b3deebbfe32534f3407466ca03a9a877ce2771387ac[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+             @config[32m=[0m
+              [32m#<Rails::Application::Configuration:0x0000563e258fdf18[0m
+               @add_autoload_paths_to_load_path[32m=[0m[1;36mtrue[0m,
+               @allow_concurrency[32m=[0m[1;36mnil[0m,
+               @api_only[32m=[0m[1;36mfalse[0m,
+               @autoflush_log[32m=[0m[1;36mtrue[0m,
+               @autoload_once_paths[32m=[0m[],
+               @autoload_paths[32m=[0m[],
+               @autoloader[32m=[0m[33m:zeitwerk[0m,
+               @beginning_of_week[32m=[0m[33m:monday[0m,
+               @cache_classes[32m=[0m[1;36mfalse[0m,
+               @cache_store[32m=[0m[33m:null_store[0m,
+               @consider_all_requests_local[32m=[0m[1;36mtrue[0m,
+               @content_security_policy[32m=[0m[1;36mnil[0m,
+               @content_security_policy_nonce_directives[32m=[0m[1;36mnil[0m,
+               @content_security_policy_nonce_generator[32m=[0m[1;36mnil[0m,
+               @content_security_policy_report_only[32m=[0m[1;36mfalse[0m,
+               @credentials[32m=[0m
+                {[33m:content_path[0m=>[32m#<Pathname:/home/tommysky/practicenew-blogapp/config/credentials.yml.enc>[0m,
+                 [33m:key_path[0m=>[32m#<Pathname:/home/tommysky/practicenew-blogapp/config/master.key>[0m},
+               @debug_exception_response_format[32m=[0m[1;36mnil[0m,
+               @disable_sandbox[32m=[0m[1;36mfalse[0m,
+               @eager_load[32m=[0m[1;36mfalse[0m,
+               @eager_load_paths[32m=[0m
+                [[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/channels[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/controllers/concerns[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/helpers[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/jobs[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/mailers[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models[1;31m"[0m[31m[0m,
+                 [31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/models/concerns[1;31m"[0m[31m[0m],
+               @enable_dependency_loading[32m=[0m[1;36mfalse[0m,
+               @encoding[32m=[0m[32m#<Encoding:UTF-8>[0m,
+               @exceptions_app[32m=[0m[1;36mnil[0m,
+               @file_watcher[32m=[0m[1;34;4mActiveSupport[0m::[1;34;4mEventedFileUpdateChecker[0m,
+               @filter_parameters[32m=[0m[[33m:password[0m],
+               @filter_redirect[32m=[0m[],
+               @force_ssl[32m=[0m[1;36mfalse[0m,
+               @generators[32m=[0m
+                [32m#<Rails::Configuration::Generators:0x0000563e234ee410[0m
+                 @aliases[32m=[0m{},
+                 @api_only[32m=[0m[1;36mfalse[0m,
+                 @colorize_logging[32m=[0m[1;36mtrue[0m,
+                 @fallbacks[32m=[0m{},
+                 @hidden_namespaces[32m=[0m[[31m[1;31m"[0m[31msass[1;31m"[0m[31m[0m],
+                 @options[32m=[0m
+                  {[33m:rails[0m=>
+                    {[33m:orm[0m=>[33m:active_record[0m,
+                     [33m:test_framework[0m=>[33m:test_unit[0m,
+                     [33m:integration_tool[0m=>[33m:test_unit[0m,
+                     [33m:system_tests[0m=>[33m:test_unit[0m,
+                     [33m:stylesheet_engine[0m=>[33m:scss[0m},
+                   [33m:active_record[0m=>{[33m:migration[0m=>[1;36mtrue[0m, [33m:timestamps[0m=>[1;36mtrue[0m},
+                   [33m:test_unit[0m=>{[33m:fixture[0m=>[1;36mtrue[0m, [33m:fixture_replacement[0m=>[1;36mnil[0m}},
+                 @templates[32m=[0m[][32m>[0m,
+               @helpers_paths[32m=[0m[[31m[1;31m"[0m[31m/home/tommysky/practicenew-blogapp/app/helpers[1;31m"[0m[31m[0m],
+               @hosts[32m=[0m
+                [[31m[1;31m"[0m[31m.localhost[1;31m"[0m[31m[0m,
+                 [32m#<IPAddr: IPv4:0.0.0.0/0.0.0.0>[0m,
+                 [32m#<IPAddr: IPv6:0000:0000:0000:0000:0000:0000:0000:0000/0000:0000:0000:0000:0000:0000:0000:0000>[0m],
+               @javascript_path[32m=[0m[31m[1;31m"[0m[31mjavascript[1;31m"[0m[31m[0m,
+               @loaded_config_version[32m=[0m[1;35m6.0[0m,
+               @log_formatter[32m=[0m[32m#<ActiveSupport::Logger::SimpleFormatter:0x0000563e258e9950[0m @datetime_format[32m=[0m[1;36mnil[0m[32m>[0m,
+               @log_level[32m=[0m[33m:debug[0m,
+               @middleware[32m=[0m
+                [32m#<ActionDispatch::MiddlewareStack:0x0000563e22d53e80[0m
+                 @middlewares[32m=[0m
+                  [[1;34;4mWebpacker[0m::[1;34;4mDevServerProxy[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mHostAuthorization[0m,
+                   [1;34;4mRack[0m::[1;34;4mSendfile[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mStatic[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mExecutor[0m,
+                   [1;34;4mActiveSupport[0m::[1;34;4mCache[0m::[1;34;4mStrategy[0m::[1;34;4mLocalCache[0m::[1;34;4mMiddleware[0m,
+                   [1;34;4mRack[0m::[1;34;4mRuntime[0m,
+                   [1;34;4mRack[0m::[1;34;4mMethodOverride[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mRequestId[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mRemoteIp[0m,
+                   [1;34;4mSprockets[0m::[1;34;4mRails[0m::[1;34;4mQuietAssets[0m,
+                   [1;34;4mRails[0m::[1;34;4mRack[0m::[1;34;4mLogger[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mShowExceptions[0m,
+                   [1;34;4mWebConsole[0m::[1;34;4mMiddleware[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mDebugExceptions[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mActionableExceptions[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mReloader[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mCallbacks[0m,
+                   [1;34;4mActiveRecord[0m::[1;34;4mMigration[0m::[1;34;4mCheckPending[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mCookies[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mSession[0m::[1;34;4mCookieStore[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mFlash[0m,
+                   [1;34;4mActionDispatch[0m::[1;34;4mContentSecurityPolicy[0m::[1;34;4mMiddleware[0m,
+                   [1;34;4mRack[0m::[1;34;4mHead[0m,
+                   [1;34;4mRack[0m::[1;34;4mConditionalGet[0m,
+                   [1;34;4mRack[0m::[1;34;4mETag[0m,
+                   [1;34;4mRack[0m::[1;34;4mTempfileReaper[0m][32m>[0m,
+               @paths[32m=[0m
+                [32m#<Rails::Paths::Root:0x0000563e257086b8[0m
+                 @path[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp>[0m,
+                 @root[32m=[0m
+                  {[31m[1;31m"[0m[31mapp[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e257085f0[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[[31m[1;31m"[0m[31massets[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mjavascript[1;31m"[0m[31m[0m],
+                     @glob[32m=[0m[31m[1;31m"[0m[31m{*,*/concerns}[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/assets[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708578[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/assets[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/assets[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/controllers[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708500[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/controllers[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/controllers[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/channels[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708488[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/channels[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m**/*_channel.rb[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/channels[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/helpers[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708410[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/helpers[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/helpers[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/models[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708398[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/models[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/models[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/mailers[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e257082f8[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/mailers[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mtrue[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/mailers[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mapp/views[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708230[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mapp/views[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mapp/views[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mlib[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e25708168[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mlib[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mtrue[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mlib[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mlib/assets[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e257080c8[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mlib/assets[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mlib/assets[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mlib/tasks[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbfa8[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mlib/tasks[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m**/*.rake[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mlib/tasks[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbf30[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/environments[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbe90[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/environments[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31mdevelopment.rb[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/environments[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/initializers[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbe18[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/initializers[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m**/*.rb[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/initializers[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/locales[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbd78[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/locales[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m*.{rb,yml}[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/locales[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/routes.rb[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbc60[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/routes.rb[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/routes.rb[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mdb[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbbe8[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mdb[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mdb[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mdb/migrate[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fbb48[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mdb/migrate[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mdb/migrate[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mdb/seeds.rb[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fba80[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mdb/seeds.rb[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mdb/seeds.rb[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mvendor[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fba08[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mvendor[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mtrue[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mvendor[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mvendor/assets[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb990[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mvendor/assets[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31m*[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mvendor/assets[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/database[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb918[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/database[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/database.yml[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/secrets[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb8a0[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/secrets[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[31m[1;31m"[0m[31msecrets.yml{,.enc}[1;31m"[0m[31m[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/environment[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb828[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/environment[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/environment.rb[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mlib/templates[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb7b0[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mlib/templates[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mlib/templates[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mlog[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb710[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mlog[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mlog/development.log[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb698[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mpublic[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mpublic/javascripts[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb620[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mpublic/javascripts[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mpublic/javascripts[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mpublic/stylesheets[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb5a8[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mpublic/stylesheets[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mpublic/stylesheets[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mtmp[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e256fb530[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mtmp[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mtmp[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m,
+                   [31m[1;31m"[0m[31mconfig/cable[1;31m"[0m[31m[0m=>
+                    [32m#<Rails::Paths::Path:0x0000563e24e97d30[0m
+                     @autoload[32m=[0m[1;36mfalse[0m,
+                     @autoload_once[32m=[0m[1;36mfalse[0m,
+                     @current[32m=[0m[31m[1;31m"[0m[31mconfig/cable[1;31m"[0m[31m[0m,
+                     @eager_load[32m=[0m[1;36mfalse[0m,
+                     @exclude[32m=[0m[1;36mnil[0m,
+                     @glob[32m=[0m[1;36mnil[0m,
+                     @load_path[32m=[0m[1;36mfalse[0m,
+                     @paths[32m=[0m[[31m[1;31m"[0m[31mconfig/cable.yml[1;31m"[0m[31m[0m],
+                     @root[32m=[0m[32m#<Rails::Paths::Root:0x0000563e257086b8[0m ...[32m>[0m[32m>[0m}[32m>[0m,
+               @public_file_server[32m=[0m{[33m:enabled[0m=>[1;36mtrue[0m, [33m:index_name[0m=>[31m[1;31m"[0m[31mindex[1;31m"[0m[31m[0m},
+               @railties_order[32m=[0m[[33m:all[0m],
+               @read_encrypted_secrets[32m=[0m[1;36mfalse[0m,
+               @relative_url_root[32m=[0m[1;36mnil[0m,
+               @reload_classes_only_on_change[32m=[0m[1;36mtrue[0m,
+               @require_master_key[32m=[0m[1;36mfalse[0m,
+               @root[32m=[0m[32m#<Pathname:/home/tommysky/practicenew-blogapp>[0m,
+               @secret_key_base[32m=[0m[1;36mnil[0m,
+               @session_options[32m=[0m{[33m:key[0m=>[31m[1;31m"[0m[31m_practicenew_blogapp_session[1;31m"[0m[31m[0m, [33m:cookie_only[0m=>[1;36mtrue[0m},
+               @session_store[32m=[0m[33m:cookie_store[0m,
+               @ssl_options[32m=[0m{[33m:hsts[0m=>{[33m:subdomains[0m=>[1;36mtrue[0m}},
+               @time_zone[32m=[0m[31m[1;31m"[0m[31mUTC[1;31m"[0m[31m[0m,
+               @x[32m=[0m[32m#<Rails::Application::Configuration::Custom:0x0000563e258e9928[0m @configurations[32m=[0m{}[32m>[0m[32m>[0m,
+             @env_config[32m=[0m{},
+             @executor[32m=[0m[32m#<Class:0x0000563e259170d0>[0m,
+             @helpers[32m=[0m[1;36mnil[0m,
+             @initial_variable_values[32m=[0m{},
+             @initialized[32m=[0m[1;36mtrue[0m,
+             @initializers[32m=[0m
+              [[32m#<Rails::Initializable::Initializer:0x0000563e257cbc80[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e231041d8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:563>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:set_load_path[0m,
+                @options[32m=[0m{[33m:before[0m=>[33m:bootstrap_hook[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cbc30[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e231040e8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:575>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:set_autoload_paths[0m,
+                @options[32m=[0m{[33m:before[0m=>[33m:bootstrap_hook[0m, [33m:after[0m=>[33m:set_load_path[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cbbe0[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc3f50 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:583>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:set_eager_load_paths[0m,
+                @options[32m=[0m{[33m:before[0m=>[33m:bootstrap_hook[0m, [33m:after[0m=>[33m:set_autoload_paths[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cbb90[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc3c58 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:588>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:add_routing_paths[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:set_eager_load_paths[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cbb40[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc3a78 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:599>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:add_locales[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:add_routing_paths[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cbac8[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc37d0 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:603>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:add_view_paths[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:add_locales[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cba50[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc33e8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:611>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:load_environment_config[0m,
+                @options[32m=[0m{[33m:before[0m=>[33m:load_environment_hook[0m, [33m:group[0m=>[33m:all[0m, [33m:after[0m=>[33m:add_view_paths[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cb9d8[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc2e48 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:617>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:prepend_helpers_path[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:load_environment_config[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cb938[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc28a8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:623>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:load_config_initializers[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:prepend_helpers_path[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cb8e8[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e22dc2740 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/railties-6.0.6.1/lib/rails/engine.rb:629>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:engines_blank_point[0m,
+                @options[32m=[0m{[33m:after[0m=>[33m:load_config_initializers[0m, [33m:group[0m=>[33m:default[0m}[32m>[0m,
+               [32m#<Rails::Initializable::Initializer:0x0000563e257cb898[0m
+                @block[32m=[0m
+                 [32m#<Proc:0x0000563e23e080c8 /home/tommysky/.rbenv/versions/2.7.7/lib/ruby/gems/2.7.0/gems/sprockets-rails-3.4.2/lib/sprockets/railtie.rb:60>[0m,
+                @context[32m=[0m[32m#<PracticenewBlogapp::Application:0x0000563e2593d0a0[0m ...[32m>[0m,
+                @name[32m=[0m[33m:append_assets_path[0m,
+                @options[32m=[0m{[33m:group[0m=>[33m:all[0m, [33m:after[0m=>[33m:engines_blank_point[0m}[32m>[0m],
+             @message_verifiers[32m=[0m
+              {[31m[1;31m"[0m[31mActiveStorage[1;31m"[0m[31m[0m=>
+                [32m#<ActiveSupport::MessageVerifier:0x0000563e24b41dc0[0m
+                 @digest[32m=[0m[31m[1;31m"[0m[31mSHA1[1;31m"[0m[31m[0m,
+                 @options[32m=[0m{},
+                 @rotations[32m=[0m[],
+                 @secret[32m=[0m
+                  [31m[1;31m"[0m[31m[1;35m\xD7[0m[31mZ?[1;35m\xC3[0m[31m[1;35m\x80[0m[31m=[1;35m\xED[0m[31m[1;35m\xDF[0m[31m[1;35m\v[0m[31m[1;35m\xBB[0m[31m[1;35m\x89[0m[31m[1;35m\xE5[0m[31m[1;35m\x1D[0m[31m?[1;35m\xC4[0m[31m[1;35m\xBA[0m[31mu[1;35m\x8F[0m[31m[1;35m\x87[0m[31m[1;35m\xA1[0m[31m[1;35m\xBB[0m[31m[1;35m\x96[0m[31m[1;35m\xA2[0m[31m[1;35m\x10[0m[31m[1;35m\x8D[0m[31m[1;35m\xF1[0m[31mq[1;35m\x7F[0m[31m[1;35m\xC6[0m[31m[1;35m\xF7[0m[31m[1;35m\xC5[0m[31m|[1;35m\xDB[0m[31m[1;35m\xF1[0m[31m[1;35m\xCD[0m[31m>[1;35m\xE2[0m[31m[1;35m\xBE[0m[31mD[1;35m\xFE[0m[31m[1;35m\t[0m[31m[1;35m\xB0[0m[31mL[1;35m\v[0m[31mv[1;35m\xAF[0m[31m[1;35m\xC5[0m[31m[1;35m\t[0m[31m[1;35m\x8D[0m[31m[1;35m\xE3[0m[31m[1;35m\xE2[0m[31mZS[1;35m\xB8[0m[31m[1;35m\x8F[0m[31m[1;35m\xAE[0m[31m[1;35m\xD1[0m[31m[1;35m\xF4[0m[31m[1;35m\xF7[0m[31m[1;35m\x8D[0m[31m[1;35m\x89[0m[31m[1;35m\b[0m[31m[1;35m\xA0[0m[31m[1;35m\xC0[0m[31m[1;31m"[0m[31m[0m
